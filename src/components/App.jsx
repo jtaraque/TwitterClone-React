@@ -6,7 +6,7 @@ import PostList from './posts/PostList';
 import { GoogleLogin } from 'react-google-login';
 import config from '../config.js';
 
-import MyPlaceBird from '../images/bird.png';
+import MyPlaceBird from '../images/favicon.ico'; //'../images/bird.png';
 var imgStyle = {
   maxWidth: "85px",
 };
@@ -34,7 +34,7 @@ export default function App(props){
       <Row>
         <Col>
           <Navbar color="primary" light expand="md">
-          <Media style={imgStyle} object src={MyPlaceBird} alt="Bird"/><NavbarBrand><h4 className="text-white">My Twitter Clone</h4></NavbarBrand>
+          <Media style={imgStyle} object src={MyPlaceBird} alt="Bird"/><NavbarBrand><h4 className="text-white">&nbsp;&nbsp;My Twitter Clone</h4></NavbarBrand>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 {loginMessage}
